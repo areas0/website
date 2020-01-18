@@ -5,11 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-body2{
-    background-color: #2E2E2E;
-}
 body{
-    background: linear-gradient(#2E64FE, #F781BE);
+    background-color: #2E2E2E
 }
 hr{
     border-top: 1px solid rgb(253, 253, 253)
