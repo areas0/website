@@ -17,3 +17,8 @@ hr{
 .top{
     padding: 4rem 2rem;
 }
+.bartendu{
+    background: -webkit-linear-gradient(#2E64FE, #F781BE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
