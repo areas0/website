@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Bartendu - About us</title>
     <meta charset="utf-8">
@@ -11,6 +12,16 @@
     <link rel="icon" type="image/png/svg" href="files/img/CosmopolitainsLogoNoBackgroundNoText.svg">
 </head>
 <body>
+  <script>
+    function toggleImage() {
+       var img1 = "https://areas0.github.io/website/files/img/973.png";
+       var img2 = "https://thumbs.gfycat.com/AdeptPhonyKomododragon-size_restricted.gif";
+       
+       var imgElement = document.getElementById('toggleImage');
+    
+       imgElement.src = (imgElement.src === img1)? img2 : img1;
+    }
+    </script>
   <div style="min-height: 90vh">
     <header>
         <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0">
@@ -52,7 +63,7 @@
                 <hr>
                 <div class="row featurette" style="margin-top:15px;text-align: justify;">
                     <div class="col" style="padding-left: 0px;padding-right: 1px;">
-                        <center><img src="files/img/973.png" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="50%" height="50%"></center>
+                        <center><img src="files/img/973.png" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="toggleImage" onclick="toggleImage();" width="50%" height="50%"></center>
                     </div>
                     <div class="col-md-7" style="padding-left: 0px;padding-right: 15px;">
                       <h2 style="margin-top: 15px;">Jean Bou Raad (a.k.a. Areas) <button type="button" class="btn btn-outline-info">Project Leader</button></h2>
@@ -119,4 +130,5 @@
           </div>
         </div>      
       </div>
-  </body>
+  </body> 
+</html>
