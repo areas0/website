@@ -26,3 +26,6 @@ hr{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bartendu2{
+    background: linear-gradient(#2E64FE, #F781BE);
+}

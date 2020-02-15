@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="files/css/custom.css">
     
     <link rel="icon" type="image/png/svg" href="files/img/CosmopolitainsLogoNoBackgroundNoText.svg">
+    <script>
+      function theme(){
+        var body = document.body;
+        body.classList.add("bartendu2");
+
+      }
+    </script>
 </head>
 <body>
     <header>
@@ -21,7 +28,7 @@
             <p><a class="btn btn-primary" href="download.html" role="button"> <img src="files/img/download.svg" width="25" height="25"> Download now!</a></p> 
           </div>
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom:15px;">
-            <a class="navbar-brand bartendu" href="#">Bartendu</a>
+            <a class="navbar-brand bartendu" href="#" id="theme" onclick="theme()">Bartendu</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
