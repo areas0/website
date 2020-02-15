@@ -10,18 +10,31 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="files/css/custom.css">
     <link rel="icon" type="image/png/svg" href="files/img/CosmopolitainsLogoNoBackgroundNoText.svg">
+    <script>
+      function toggleImage() {
+         var img2 = "https://areas0.github.io/website/files/img/973.png";
+         var img1 = "https://thumbs.gfycat.com/AdeptPhonyKomododragon-size_restricted.gif";
+         var img3 = "https://gifimage.net/wp-content/uploads/2017/09/ash-greninja-gif-8.gif"
+         var imgElement = document.getElementById('toggleImage');
+         if (imgElement.src == img2){
+           imgElement.src = img1
+           imgElement.style.width = "90%"
+           imgElement.style.height = "90%"
+         }
+         else if (imgElement.src == img1){
+           imgElement.src = img3
+           imgElement.style.width = "90%"
+           imgElement.style.height = "90%"
+         }
+         else{
+           imgElement.src = img2;
+           imgElement.style.width = "50%"
+           imgElement.style.height = "50%"
+         }
+      }
+    </script>
 </head>
 <body>
-  <script>
-    function toggleImage() {
-       var img1 = "https://areas0.github.io/website/files/img/973.png";
-       var img2 = "https://thumbs.gfycat.com/AdeptPhonyKomododragon-size_restricted.gif";
-       
-       var imgElement = document.getElementById('toggleImage');
-    
-       imgElement.src = (imgElement.src === img1)? img2 : img1;
-    }
-    </script>
   <div style="min-height: 90vh">
     <header>
         <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0">
@@ -62,10 +75,10 @@
                 <h1 style="padding-top: 15px;">The team</h1>
                 <hr>
                 <div class="row featurette" style="margin-top:15px;text-align: justify;">
-                    <div class="col" style="padding-left: 0px;padding-right: 1px;">
+                    <div class="col" style="padding-left: 5px;padding-right: 5px;">
                         <center><img src="files/img/973.png" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="toggleImage" onclick="toggleImage();" width="50%" height="50%"></center>
                     </div>
-                    <div class="col-md-7" style="padding-left: 0px;padding-right: 15px;">
+                    <div class="col-md-7" style="padding-left: 5px;padding-right: 15px;">
                       <h2 style="margin-top: 15px;">Jean Bou Raad (a.k.a. Areas) <button type="button" class="btn btn-outline-info">Project Leader</button></h2>
                       <p>Computer science has always been a passion for me even before EPITA. I have learned by myself a little bit of some programming languages and got the opportunity to work with a small team for server software development in C# and node-JavaScript (known as node-js). I got in touch with various developers and discovered the world of software development with them. </p>
                       <p>However, I have no experience with Unity. Therefore, I aim with this project, to learn how to make a game with the help of the rest of the team. Furthermore, I see this project as an opportunity to expand my skills in sound environment and music-making. 
@@ -75,10 +88,10 @@
                     </div>
                 </div>
                 <div class="row featurette" style="margin-top:15px;text-align: justify;">
-                  <div class="col" style="padding-left: 0px;padding-right: 1px;">
+                  <div class="col" style="padding-left: 5px;padding-right: 5px;">
                         <center><img src="files/img/acb89fb3-314d-4d22-89c3-1541d13351ab.jfif" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="75%" height="75%"></center>
                     </div>
-                    <div class="col-md-7" style="padding-left: 0px;padding-right: 15px;">
+                    <div class="col-md-7" style="padding-left: 5px;padding-right: 15px;">
                         <h2 style="margin-top: 15px;">Lou Lefebvre <button type="button" class="btn btn-outline-success" style="margin-left: 25px;">Graphic leader</button></h2>
                         <p>I always loved computer sciences but I never actually learned to code before coming to EPITA, even if in one semester I learned a lot. </p>
                         <p>However, I already did some projects in SI (high school) and with a innovation group with whom I had the opportunity to present projects to different competitions like the “Concours Lépine”. Thanks to those experiences, I know how to work with a team and to present project but this experience is another opportunity to improve those skills.</p>
@@ -87,10 +100,10 @@
                     </div>
                 </div>
                 <div class="row featurette" style="margin-top:15px;text-align: justify;">
-                    <div class="col" style="padding-left: 0px;padding-right: 1px;">
+                    <div class="col" style="padding-left: 5px;padding-right: 1px;">
                         <center><img src="files/img/22876605.jpg" class="align-self-center rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="75%" height="75%"></center>
                     </div>
-                    <div class="col-md-7" style="padding-left: 0px;padding-right: 15px;">
+                    <div class="col-md-7" style="padding-left: 5px;padding-right: 15px;">
                         <h2>Vincent Thirouin <button type="button" class="btn btn-outline-danger">L'alpaca</button></h2>
                         <p>Ever since in highschool I started developing games and applications and thus have a solid experience in softwares like Unity and Visual Studio but also with languages such as C#, Python and Java. </p>
                         <P>So, I was very excited to start working on the project and I think I can help my team by sharing my knowledge and my passion. I am someone very passionate and I tend to work very fast if the subject interest me. As we decided on this game idea together I am very excited to start working on this project with my team members.</P>
@@ -103,7 +116,7 @@
                     <div class="col" style="padding-left: 0px;padding-right: 1px;">
                         <center><img src="https://cdn.discordapp.com/attachments/657576253716430881/667658491179302932/unknown.png" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="75%" height="75%"></center>
                     </div>
-                    <div class="col-md-7" style="padding-left: 0px;padding-right: 15px;">
+                    <div class="col-md-7" style="padding-left: 5px;padding-right: 15px;">
                         <h2>Emeline Tichit <button type="button" class="btn btn-outline-success" style="margin-left: 25px;">Communication manager</button></h2>
                         <p>I discovered computer science in highschool through a programming class called ”Informatique et création numérique”. We were taught how to code on Processing. Then, at
                             the end of my senior year, our maths teacher made us try our hand at coding in Python.
