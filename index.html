@@ -15,7 +15,12 @@
     <script>
       function theme(){
         var body = document.body;
-        body.classList.add("bartendu2");
+        if (body.classList == ""){
+          body.classList.add("bartendu2");
+        }
+        else{
+          body.classList.remove("bartendu2")
+        }
 
       }
     </script>
