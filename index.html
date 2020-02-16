@@ -13,18 +13,26 @@
     
     <link rel="icon" type="image/png/svg" href="files/img/CosmopolitainsLogoNoBackgroundNoText.svg">
     <script>
+      function change(){
+        if (document.cookie == "theme=lite"){
+          theme();
+        }
+      }
       function theme(){
         var body = document.body;
+        var cookies = document.cookie;
         if (body.classList == ""){
           body.classList.add("bartendu2");
+          document.cookie = "theme=lite"
         }
         else{
           body.classList.remove("bartendu2");
+          document.cookie = "theme=normal"
         }
       }
     </script>
 </head>
-<body>
+<body onload="change()">
     <header>
         <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0;">
             <h1 class="bartendu">Bartendu</h1>
