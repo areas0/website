@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0">
+        <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0;min-height: 25vh;">
             <h1 class="bartendu">Features</h1>
             <p>Discover the game and its features!</p> 
           </div>
@@ -22,12 +22,15 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav active">
+              <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="download.html">Download</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="features.html">Features</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,51 +49,36 @@
           </nav>
     </header>
     <main role="main">
-      <div class="container marketing" style="margin-top:25px">
+      <div class="container marketing" style="margin-top:15px;min-height: 50vh;">
         <div class="jumbotron text-white bg-dark">
           <div class="row align-items-center">
             <div class="col">
-            <h1>Gameplay preview <img src="files/img/BartenduLogoInGame.png" width="100px" height="90px"></h1>
+            <h1>Gameplay preview <img src="files/img/BartenduLogoInGame.png" width="100vh" height="100vh"></h1>
             <hr>
-            <iframe src="https://www.youtube-nocookie.com/embed/m1vtEX64gmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 80vh;max-height: 50vh;"></iframe>
-            <h1 style="margin-top: 15px;">Features list</h1>
-            <hr style="margin-bottom: 15px;">
-            <table class="table-responsive-xl table-striped table-dark" style="width:100%;border-color:grey">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Multiplayer</td>
-                    <td>Implementing a basic multiplayer using photon for unity</td>
-                    <td><button type="button" class="btn btn-outline-success" style="margin-left: 25px;">In polishing</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Movements</td>
-                    <td>Implementing movements and actions for players in-game</td>
-                    <td><button type="button" class="btn btn-outline-success" style="margin-left: 25px;">In polishing</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Level Design</td>
-                    <td>Implementing the first level: a simple kitchen</td>
-                    <td><button type="button" class="btn btn-outline-primary" style="margin-left: 25px;">In progress</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Musics</td>
-                    <td>Creating themes for main menu & in-game music</td>
-                    <td><button type="button" class="btn btn-outline-primary" style="margin-left: 25px;">In progress</button></td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="row">
+              <div class="col align-content-center">
+                <center>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m1vtEX64gmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-height: 100%;max-width: 100%;min-width: 50%;min-height: 50%;"></iframe>
+                </center>
+              </div>
+              <div class="col">
+                <h3>A 4 players cooking game</h3>
+                <p>Bartendu is a cooking simulation playable with up to 4 players on various showcased in the video on the left!</p>
+              </div>
+            </div>
+            <hr class="align-content-center" style="width: 50%;margin-top: 5vh;">
+            <div class="row">
+              <div class="col">
+                <h3 style="margin-top: 5vh;">A great adventure is available</h3>
+                <p>Bartendu offers also a solo mode with various stories and challenges to enjoy!</p>
+              </div>
+              <div class="col">
+                <center style="margin-top: 25px;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/IXRKgIIMEak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+                  style="max-height: 100%;max-width: 100%;min-width: 50%;min-height: 50%;"></iframe>
+                </center>
+              </div>
+            </div>
             </div>
           </div>
         </div>
