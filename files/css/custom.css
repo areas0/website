@@ -29,3 +29,8 @@ hr{
 .bartendu2{
     background: linear-gradient(#2E64FE, #F781BE);
 }
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
